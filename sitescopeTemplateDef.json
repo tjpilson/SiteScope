@@ -1,0 +1,46 @@
+[
+  {"url":
+   [
+      {"server":"http://mySiteScopeServer:8080/SiteScope/services/APIConfigurationImpl?wsdl"}
+   ]
+  },
+  {"templateFolder":"Monitor Deployment Wizard Templates","template":"Oracle DB Monitor 4/4",
+    "config":
+    [
+      {"fieldName":"database_name"},
+      {"fieldName":"database_instance1"},
+      {"fieldName":"database_instance2"},
+      {"fieldName":"database_instance3"},
+      {"fieldName":"database_instance4"},
+      {"fieldName":"database_port"},
+      {"fieldName":"server1_name"},
+      {"fieldName":"server2_name"},
+      {"fieldName":"server3_name"},
+      {"fieldName":"server4_name"}
+    ]
+  },
+  {"templateFolder":"Monitor Deployment Wizard Templates","template":"Oracle DB Monitor 2/4",
+    "config":
+    [
+      {"fieldName":"database_name"},
+      {"fieldName":"database_instance1"},
+      {"fieldName":"database_instance2"},
+      {"fieldName":"database_port"},
+      {"fieldName":"server1_name"},
+      {"fieldName":"server2_name"},
+      {"fieldName":"server3_name"},
+      {"fieldName":"server4_name"}
+    ]
+  },
+  {"templateFolder":"Monitor Deployment Wizard Templates","template":"Oracle DB Monitor 2/2",
+    "config":
+    [
+      {"fieldName":"database_name"},
+      {"fieldName":"database_instance1"},
+      {"fieldName":"database_instance2"},
+      {"fieldName":"database_port"},
+      {"fieldName":"server1_name"},
+      {"fieldName":"server2_name"}
+    ]
+  }
+]
