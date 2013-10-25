@@ -3,8 +3,8 @@ SiteScope
 
 SiteScope template deploy program
 
-sitescopeProv.pl
-sitescopeTemplateDef.json
+- sitescopeProv.pl
+- sitescopeTemplateDef.json
 
 HP SiteScope provides a SOAP-based API for managing the server and configuration.  Documentation for the API is sparse.  This program is intended to provide a quick deployment method for new monitors based on existing templates.
 
