@@ -13,7 +13,7 @@
 #use SOAP::Lite 'trace', 'debug';  ## for debug
 use SOAP::Lite; 
 use Term::ReadKey;
-use JSON::XS;
+use JSON;
 use Getopt::Long;
 
 ## Parms (required)
@@ -53,9 +53,9 @@ foreach my $parms (@parms) {
 }
 
 ## Required parms
-if ( $field{template} eq ""  ) { die "ERROR: missing parameter --template\n";  }
-if ( $field{destHome} eq ""  ) { die "ERROR: missing parameter --destHome\n";  }
-if ( $field{destGroup} eq "" ) { die "ERROR: missing parameter --destGroup\n"; }
+if ( $template eq ""  ) { die "ERROR: missing parameter --template\n";  }
+if ( $destHome eq ""  ) { die "ERROR: missing parameter --destHome\n";  }
+if ( $destGroup eq "" ) { die "ERROR: missing parameter --destGroup\n"; }
 
 ## Get Credentials for Authentication
 ## ----------------------------------
