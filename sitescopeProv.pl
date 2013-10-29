@@ -52,6 +52,11 @@ foreach my $parms (@parms) {
   $parmsIn{$field} = "$value";
 }
 
+## Required parms
+if ( $field{template} eq ""  ) { die "ERROR: missing parameter --template\n";  }
+if ( $field{destHome} eq ""  ) { die "ERROR: missing parameter --destHome\n";  }
+if ( $field{destGroup} eq "" ) { die "ERROR: missing parameter --destGroup\n"; }
+
 ## Get Credentials for Authentication
 ## ----------------------------------
 print "Enter Username: ";
